@@ -1,1 +1,36 @@
-[]
+[
+	{
+		"names": [
+			"LEFT_COMMAND T"
+		],
+		"description": "LEFT_COMMAND T",
+		"clarify": false,
+		"documentation": "",
+		"os": {
+			"windows": true,
+			"linux": true,
+			"android": true,
+			"macos": true,
+			"ios": true
+		},
+		"footnotes": {},
+		"type": "UD"
+	},
+	{
+		"names": [
+			"LEFT_COMMAND X"
+		],
+		"description": "LEFT_COMMAND X",
+		"clarify": false,
+		"documentation": "",
+		"os": {
+			"windows": true,
+			"linux": true,
+			"android": true,
+			"macos": true,
+			"ios": true
+		},
+		"footnotes": {},
+		"type": "UD"
+	}
+]
