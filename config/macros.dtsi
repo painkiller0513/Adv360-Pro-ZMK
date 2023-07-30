@@ -1,3 +1,29 @@
+macro_app_4: macro_app_4{
+compatible = "zmk,behavior-macro";
+label = "macro_app_4";
+#binding-cells = <0>;
+bindings
+    = <&macro_press &kp LEFT_CONTROL>
+    , <&macro_press &kp LEFT_COMMAND>
+    , <&macro_tap &kp N2>
+    , <&macro_release &kp LEFT_CONTROL>
+    , <&macro_release &kp LEFT_COMMAND>
+    ;
+};
+
+macro_app_3: macro_app_3{
+compatible = "zmk,behavior-macro";
+label = "macro_app_3";
+#binding-cells = <0>;
+bindings
+    = <&macro_press &kp LEFT_CONTROL>
+    , <&macro_press &kp LEFT_COMMAND>
+    , <&macro_tap &kp N2>
+    , <&macro_release &kp LEFT_CONTROL>
+    , <&macro_release &kp LEFT_COMMAND>
+    ;
+};
+
 macro_app_2: macro_app_2{
 compatible = "zmk,behavior-macro";
 label = "macro_app_2";
@@ -24,20 +50,6 @@ bindings
     ;
 };
 
-macro_apps: macro_apps{
-compatible = "zmk,behavior-macro";
-label = "macro_apps";
-#binding-cells = <0>;
-bindings
-    = <&macro_param_1to1>
-    , <&macro_press &kp LEFT_CONTROL>
-    , <&macro_press &kp LEFT_COMMAND>
-    , <&macro_tap &kp MACRO_PLACEHOLDER>
-    , <&macro_release &kp LEFT_CONTROL>
-    , <&macro_release &kp LEFT_COMMAND>
-    ;
-};
-
 macro_app: macro_app{
 compatible = "zmk,behavior-macro";
 label = "macro_app";
@@ -55,5 +67,13 @@ macro_kinesis: macro_kinesis{
 compatible = "zmk,behavior-macro";
 label = "macro_kinesis";
 #binding-cells = <0>;
-bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
+bindings
+    = <&kp LS(K)>
+    , <&kp I>
+    , <&kp N>
+    , <&kp E>
+    , <&kp S>
+    , <&kp I>
+    , <&kp S>
+    ;
 };
