@@ -28,7 +28,6 @@ label = "macro_magit";
 #binding-cells = <0>;
 bindings = <&kp LC(X)>, <&kp G>;
 };
-
 macro_kinesis: macro_kinesis{
 compatible = "zmk,behavior-macro";
 label = "macro_kinesis";
