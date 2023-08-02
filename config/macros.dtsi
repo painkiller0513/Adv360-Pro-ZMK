@@ -1,34 +1,34 @@
-  macro_kinesis: macro_kinesis {
-    compatible = "zmk,behavior-macro";
-    label = "macro_kinesis";
-    #binding-cells = <0>;
-    bindings = <&kp LC(1)>;
-  };
+macro_command_1: macro_command_1 {
+  compatible = "zmk,behavior-macro";
+  label = "macro_command_1";
+  #binding-cells = <0>;
+  bindings = <&kp LC(N1)>;
+};
 
-  macro_kinesis: macro_kinesis {
-    compatible = "zmk,behavior-macro";
-    label = "macro_kinesis";
-    #binding-cells = <0>;
-    bindings = <&kp LC(2)>;
-  };
+macro_command_2: macro_command_2 {
+  compatible = "zmk,behavior-macro";
+  label = "macro_command_2";
+  #binding-cells = <0>;
+  bindings = <&kp LC(N2)>;
+};
 
-  macro_kinesis: macro_kinesis {
-    compatible = "zmk,behavior-macro";
-    label = "macro_kinesis";
-    #binding-cells = <0>;
-    bindings = <&kp LC(3)>;
-  };
+macro_command_3: macro_command_3 {
+  compatible = "zmk,behavior-macro";
+  label = "macro_command_3";
+  #binding-cells = <0>;
+  bindings = <&kp LC(N3)>;
+};
 
-  macro_kinesis: macro_kinesis {
-    compatible = "zmk,behavior-macro";
-    label = "macro_kinesis";
-    #binding-cells = <0>;
-    bindings = <&kp LC(4)>;
-  };
+macro_command_4: macro_command_4 {
+  compatible = "zmk,behavior-macro";
+  label = "macro_command_4";
+  #binding-cells = <0>;
+  bindings = <&kp LC(N4)>;
+};
 
-  macro_kinesis: macro_kinesis {
-    compatible = "zmk,behavior-macro";
-    label = "macro_kinesis";
-    #binding-cells = <0>;
-    bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
-  };
+macro_kinesis: macro_kinesis {
+  compatible = "zmk,behavior-macro";
+  label = "macro_kinesis";
+  #binding-cells = <0>;
+  bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
+};
