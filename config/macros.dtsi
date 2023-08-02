@@ -2,28 +2,28 @@ macro_command_1: macro_command_1 {
   compatible = "zmk,behavior-macro";
   label = "macro_command_1";
   #binding-cells = <0>;
-  bindings = <&kp LC(N1)>;
+  bindings = <&kp LG(N1)>;
 };
 
 macro_command_2: macro_command_2 {
   compatible = "zmk,behavior-macro";
   label = "macro_command_2";
   #binding-cells = <0>;
-  bindings = <&kp LEFT_COMMAND(N2)>;
+  bindings = <&kp LG(N2)>;
 };
 
 macro_command_3: macro_command_3 {
   compatible = "zmk,behavior-macro";
   label = "macro_command_3";
   #binding-cells = <0>;
-  bindings = <&kp LCM(N3)>;
+  bindings = <&kp LG(N3)>;
 };
 
 macro_command_4: macro_command_4 {
   compatible = "zmk,behavior-macro";
   label = "macro_command_4";
   #binding-cells = <0>;
-  bindings = <&kp LM(N4)>;
+  bindings = <&kp LG(N4)>;
 };
 
 macro_kinesis: macro_kinesis {
