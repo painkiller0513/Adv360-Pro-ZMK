@@ -28,6 +28,18 @@ label = "macro_magit";
 #binding-cells = <0>;
 bindings = <&kp LC(X)>, <&kp G>;
 };
+macro_read_only: macro_read_only{
+compatible = "zmk,behavior-macro";
+label = "macro_read_only";
+#binding-cells = <0>;
+bindings = <&kp LC(X)>, <&kp LC(Q)>;
+};
+macro_replace: macro_replace{
+compatible = "zmk,behavior-macro";
+label = "macro_replace";
+#binding-cells = <0>;
+bindings = <&sk LG(LA(LS(N5)))>;
+};
 macro_kinesis: macro_kinesis{
 compatible = "zmk,behavior-macro";
 label = "macro_kinesis";
