@@ -9,21 +9,21 @@ macro_command_2: macro_command_2 {
   compatible = "zmk,behavior-macro";
   label = "macro_command_2";
   #binding-cells = <0>;
-  bindings = <&kp LC(N2)>;
+  bindings = <&kp LEFT_COMMAND(N2)>;
 };
 
 macro_command_3: macro_command_3 {
   compatible = "zmk,behavior-macro";
   label = "macro_command_3";
   #binding-cells = <0>;
-  bindings = <&kp LC(N3)>;
+  bindings = <&kp LCM(N3)>;
 };
 
 macro_command_4: macro_command_4 {
   compatible = "zmk,behavior-macro";
   label = "macro_command_4";
   #binding-cells = <0>;
-  bindings = <&kp LC(N4)>;
+  bindings = <&kp LM(N4)>;
 };
 
 macro_kinesis: macro_kinesis {
