@@ -1,27 +1,3 @@
-macro_command_1: macro_command_1{
-compatible = "zmk,behavior-macro";
-label = "macro_command_1";
-#binding-cells = <0>;
-bindings = <&kp LG(N1)>;
-};
-macro_command_2: macro_command_2{
-compatible = "zmk,behavior-macro";
-label = "macro_command_2";
-#binding-cells = <0>;
-bindings = <&kp LG(N2)>;
-};
-macro_command_3: macro_command_3{
-compatible = "zmk,behavior-macro";
-label = "macro_command_3";
-#binding-cells = <0>;
-bindings = <&kp LG(N3)>;
-};
-macro_command_4: macro_command_4{
-compatible = "zmk,behavior-macro";
-label = "macro_command_4";
-#binding-cells = <0>;
-bindings = <&kp LG(N4)>;
-};
 macro_magit: macro_magit{
 compatible = "zmk,behavior-macro";
 label = "macro_magit";
@@ -38,7 +14,7 @@ macro_replace: macro_replace{
 compatible = "zmk,behavior-macro";
 label = "macro_replace";
 #binding-cells = <0>;
-bindings = <&sk LG(LA(LS(N5)))>;
+bindings = <&sk LG(LS(N5))>;
 };
 macro_kinesis: macro_kinesis{
 compatible = "zmk,behavior-macro";
