@@ -22,6 +22,13 @@ label = "macro_command_4";
 #binding-cells = <0>;
 bindings = <&kp LG(N4)>;
 };
+macro_magit: macro_magit{
+compatible = "zmk,behavior-macro";
+label = "macro_magit";
+#binding-cells = <0>;
+bindings = <&kp LC(X)>, <&kp G>;
+};
+
 macro_kinesis: macro_kinesis{
 compatible = "zmk,behavior-macro";
 label = "macro_kinesis";
