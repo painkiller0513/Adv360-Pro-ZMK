@@ -37,7 +37,7 @@
          compatible = "zmk,combos";
          combo_bspc {
              timeout-ms = <100>;
-             key-positions = <55 56>;
+             key-positions = <42 43>;
              bindings = <&kp BSPC>;
          };
     };
