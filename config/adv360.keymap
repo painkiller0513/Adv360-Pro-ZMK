@@ -40,7 +40,7 @@
              key-positions = <2, 3>;
              bindings = <&kp ESC>;
          };
-         compatible = "zmk,combos";
+
          combo_bspc {
              timeout-ms = <50>;
              key-positions = <67, 70>;
