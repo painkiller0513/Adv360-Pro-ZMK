@@ -38,7 +38,7 @@
          combo_eq {
              timeout-ms = <100>;
              key-positions = <10 11>;
-             bindings = <&kb EQUAL &kb EQUAL>;
+             bindings = <&kp EQUAL &kp EQUAL>;
          };
     };
 
