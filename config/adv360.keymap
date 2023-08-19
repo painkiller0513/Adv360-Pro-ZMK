@@ -39,10 +39,11 @@
          // ==
          combo_eq {
              timeout-ms = <100>;
-             key-positions = <10 11>;
+             key-positions = <10, 11>;
              bindings = <&kp EQUAL>, <&KP EQUAL>;
          };
 
+         /*
          // !=
          combo_noteq {
              timeout-ms = <100>;
@@ -70,6 +71,7 @@
              key-positions = <76 77>;
              bindings = <&kp LS(DOT)>, <&KP EQUAL>;
          };
+         */
     };
 
     keymap {
