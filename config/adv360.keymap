@@ -33,6 +33,45 @@
     };
   };
 
+    // 定义组合键，每次使用网页程序修改后都会被覆盖清空
+     combos {
+         compatible = "zmk,combos";
+         // ==
+         combo_eq {
+             timeout-ms = <100>;
+             key-positions = <10 11>;
+             bindings = <&kp EQUAL>, <&KP EQUAL>;
+         };
+
+         // !=
+         combo_noteq {
+             timeout-ms = <100>;
+             key-positions = <24 25>;
+             bindings = <&kp LS(N1)>, <&KP EQUAL>;
+         };
+
+         // :=
+         combo_assignment {
+             timeout-ms = <100>;
+             key-positions = <42 43>;
+             bindings = <&kp LS(SEMI)>, <&KP EQUAL>;
+         };
+
+         // >=
+         combo_geq {
+             timeout-ms = <100>;
+             key-positions = <58 59>;
+             bindings = <&kp LS(COMMA)>, <&KP EQUAL>;
+         };
+
+         // <=
+         combo_leq {
+             timeout-ms = <100>;
+             key-positions = <76 77>;
+             bindings = <&kp LS(DOT)>, <&KP EQUAL>;
+         };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
