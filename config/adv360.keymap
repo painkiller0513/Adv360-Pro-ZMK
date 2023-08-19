@@ -38,7 +38,14 @@
          combo_eq {
              timeout-ms = <100>;
              key-positions = <10 11>;
-             bindings = <&kp EQUAL &KP EQUAL>;
+             bindings = <&kb EQUAL &kb EQUAL>;
+         };
+
+         // !=
+         combo_noteq {
+             timeout-ms = <100>;
+             key-positions = <24 25>;
+             bindings = <&kp LS(N1) &kp EQUAL>;
          };
     };
 
