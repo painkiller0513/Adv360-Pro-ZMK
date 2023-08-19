@@ -60,14 +60,14 @@
          // <=
          combo_leq {
              timeout-ms = <100>;
-             key-positions = <56 58>;
+             key-positions = <56 57>;
              bindings = <&macro_leq>;
          };
 
          // >=
          combo_geq {
              timeout-ms = <100>;
-             key-positions = <75 76>;
+             key-positions = <72 73>;
              bindings = <&macro_geq>;
          };
     };
