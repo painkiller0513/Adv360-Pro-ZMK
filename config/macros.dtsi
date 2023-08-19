@@ -19,16 +19,16 @@ label = "macro_noteq";
 bindings = <&kp LS(N1)>, <&kp EQUAL>;
 };
 
-macro_geq: macro_geq{
+macro_leq: macro_leq{
 compatible = "zmk,behavior-macro";
-label = "macro_geq";
+label = "macro_leq";
 #binding-cells = <0>;
 bindings = <&kp LS(COMMA)>, <&kp EQUAL>;
 };
 
-macro_leq: macro_leq{
+macro_geq: macro_geq{
 compatible = "zmk,behavior-macro";
-label = "macro_leq";
+label = "macro_geq";
 #binding-cells = <0>;
 bindings = <&kp LS(DOT)>, <&kp EQUAL>;
 };

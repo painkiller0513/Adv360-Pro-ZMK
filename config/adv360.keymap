@@ -57,18 +57,18 @@
              bindings = <&macro_assignment>;
          };
 
-         // >=
-         combo_geq {
-             timeout-ms = <100>;
-             key-positions = <58 59>;
-             bindings = <&macro_geq>;
-         };
-
          // <=
          combo_leq {
              timeout-ms = <100>;
-             key-positions = <76 77>;
+             key-positions = <56 58>;
              bindings = <&macro_leq>;
+         };
+
+         // >=
+         combo_geq {
+             timeout-ms = <100>;
+             key-positions = <75 76>;
+             bindings = <&macro_geq>;
          };
     };
 
