@@ -1,3 +1,38 @@
+macro_assignment: macro_assignment{
+compatible = "zmk,behavior-macro";
+label = "macro_assignment";
+#binding-cells = <0>;
+bindings = <&kp LS(SEMI)>, <&kp EQUAL>;
+};
+
+macro_eq: macro_eq{
+compatible = "zmk,behavior-macro";
+label = "macro_eq";
+#binding-cells = <0>;
+bindings = <&kp EQUAL>, <&kp EQUAL>;
+};
+
+macro_noteq: macro_noteq{
+compatible = "zmk,behavior-macro";
+label = "macro_noteq";
+#binding-cells = <0>;
+bindings = <&kp LS(N1)>, <&kp EQUAL>;
+};
+
+macro_geq: macro_geq{
+compatible = "zmk,behavior-macro";
+label = "macro_geq";
+#binding-cells = <0>;
+bindings = <&kp LS(COMMA)>, <&kp EQUAL>;
+};
+
+macro_leq: macro_leq{
+compatible = "zmk,behavior-macro";
+label = "macro_leq";
+#binding-cells = <0>;
+bindings = <&kp LS(DOT)>, <&kp EQUAL>;
+};
+
 macro_magit: macro_magit{
 compatible = "zmk,behavior-macro";
 label = "macro_magit";
