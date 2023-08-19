@@ -35,10 +35,40 @@
 
      combos {
          compatible = "zmk,combos";
+
+         // ==
          combo_eq {
              timeout-ms = <100>;
              key-positions = <10 11>;
-             bindings = <&macro_replace>;
+             bindings = <&macro_eq>;
+         };
+
+         // !=
+         combo_noteq {
+             timeout-ms = <100>;
+             key-positions = <24 25>;
+             bindings = <&macro_noteq>;
+         };
+
+         // :=
+         combo_assignment {
+             timeout-ms = <100>;
+             key-positions = <42 43>;
+             bindings = <&macro_assignment>;
+         };
+
+         // >=
+         combo_geq {
+             timeout-ms = <100>;
+             key-positions = <58 59>;
+             bindings = <&macro_geq>;
+         };
+
+         // <=
+         combo_leq {
+             timeout-ms = <100>;
+             key-positions = <76 77>;
+             bindings = <&macro_leq>;
          };
     };
 
