@@ -1,6 +1,6 @@
-macro_input-switch: macro_input-switch{
+macro_input_switch: macro_input_switch{
 compatible = "zmk,behavior-macro";
-label = "macro_input-switch";
+label = "macro_input_switch";
 #binding-cells = <0>;
 bindings = <&kp LC(SPACE)>;
 };
