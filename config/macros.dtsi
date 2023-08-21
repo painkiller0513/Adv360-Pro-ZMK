@@ -1,3 +1,10 @@
+macro_input-switch: macro_input-switch{
+compatible = "zmk,behavior-macro";
+label = "macro_input-switch";
+#binding-cells = <0>;
+bindings = <&kp LC(SPACE)>;
+};
+
 macro_assignment: macro_assignment{
 compatible = "zmk,behavior-macro";
 label = "macro_assignment";
