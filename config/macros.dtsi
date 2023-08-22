@@ -2,7 +2,7 @@ macro_input_switch: macro_input_switch{
 compatible = "zmk,behavior-macro";
 label = "macro_input_switch";
 #binding-cells = <0>;
-bindings = <&kp LC(SPACE)>;
+bindings = <&kp LS(LC(SPACE))>;
 };
 macro_assignment: macro_assignment{
 compatible = "zmk,behavior-macro";
