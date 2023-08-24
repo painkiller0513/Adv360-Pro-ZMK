@@ -33,56 +33,17 @@
     };
   };
 
-     combos {
-         compatible = "zmk,combos";
-
-         // ==
-         combo_eq {
-             timeout-ms = <50>;
-             key-positions = <10 11>;
-             bindings = <&macro_eq>;
-         };
-
-         // !=
-         combo_noteq {
-             timeout-ms = <50>;
-             key-positions = <24 25>;
-             bindings = <&macro_noteq>;
-         };
-
-         // :=
-         combo_assignment {
-             timeout-ms = <50>;
-             key-positions = <42 43>;
-             bindings = <&macro_assignment>;
-         };
-
-         // <=
-         combo_leq {
-             timeout-ms = <50>;
-             key-positions = <56 57>;
-             bindings = <&macro_leq>;
-         };
-
-         // >=
-         combo_geq {
-             timeout-ms = <50>;
-             key-positions = <72 73>;
-             bindings = <&macro_geq>;
-         };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
 
         default_layer {
             bindings = <
- &kp MINUS     &kp N1               &kp N2    &kp N3     &kp N4  &kp N5            &sk LC(LG(Q))                                                                                  &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0   &kp BSLH
- &kp EQUAL      &kp Q                &kp W     &kp E      &kp R   &kp T               &kp LG(N1)                                                                             &kp LG(N3)   &kp Y   &kp U      &kp I     &kp O     &kp P    &kp SQT
-   &kp TAB      &kp A                &kp S     &kp D      &kp F   &kp G               &kp LG(N2)           &kp ESC  &kp LEFT_ALT                  &macro_replace     &tog 1  &kp LG(N4)   &kp H   &kp J      &kp K     &kp L  &kp SEMI   &kp BSPC
- &kp LSHFT      &kp Z                &kp X     &kp C      &kp V   &kp B                                                 &kp HOME                       &kp PG_UP                          &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-  &kp CAPS  &kp GRAVE  &macro_input_switch  &kp LEFT  &kp RIGHT                        &kp LCTRL  &kp LEFT_COMMAND       &kp END                       &kp PG_DN  &kp ENTER   &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+           &kp MINUS     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5            &sk LC(LG(Q))                                                                                  &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0   &kp BSLH
+           &kp EQUAL      &kp Q     &kp W     &kp E      &kp R   &kp T               &kp LG(N1)                                                                             &kp LG(N3)   &kp Y   &kp U      &kp I     &kp O     &kp P    &kp SQT
+             &kp TAB      &kp A     &kp S     &kp D      &kp F   &kp G               &kp LG(N2)           &kp ESC  &kp LEFT_ALT                  &macro_replace     &tog 1  &kp LG(N4)   &kp H   &kp J      &kp K     &kp L  &kp SEMI   &kp BSPC
+           &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                                 &kp HOME                       &kp PG_UP                          &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
+ &macro_input_switch  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                        &kp LCTRL  &kp LEFT_COMMAND       &kp END                       &kp PG_DN  &kp ENTER   &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
