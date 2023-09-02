@@ -36,6 +36,20 @@
      combos {
          compatible = "zmk,combos";
 
+         // -
+         combo_minus {
+             timeout-ms = <50>;
+             key-positions = <2 3>;
+             bindings = <&kp MINUS>;
+         };
+
+         // =
+         combo_equal {
+             timeout-ms = <50>;
+             key-positions = <16 17>;
+             bindings = <&kp EQUAL>;
+         };
+
          // ==
          combo_eq {
              timeout-ms = <50>;
