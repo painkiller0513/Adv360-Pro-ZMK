@@ -21,6 +21,7 @@
 / {
   behaviors {
     #include "macros.dtsi"
+    #include "version.dtsi"
 
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
@@ -32,59 +33,6 @@
         bindings = <&kp>, <&kp>;
     };
   };
-
-     combos {
-         compatible = "zmk,combos";
-
-         // -
-         combo_minus {
-             timeout-ms = <50>;
-             key-positions = <2 3>;
-             bindings = <&kp MINUS>;
-         };
-
-         // =
-         combo_equal {
-             timeout-ms = <50>;
-             key-positions = <16 17>;
-             bindings = <&kp EQUAL>;
-         };
-
-         // ==
-         combo_eq {
-             timeout-ms = <50>;
-             key-positions = <10 11>;
-             bindings = <&macro_eq>;
-         };
-
-         // !=
-         combo_noteq {
-             timeout-ms = <50>;
-             key-positions = <24 25>;
-             bindings = <&macro_noteq>;
-         };
-
-         // :=
-         combo_assignment {
-             timeout-ms = <50>;
-             key-positions = <42 43>;
-             bindings = <&macro_assignment>;
-         };
-
-         // <=
-         combo_leq {
-             timeout-ms = <50>;
-             key-positions = <56 57>;
-             bindings = <&macro_leq>;
-         };
-
-         // >=
-         combo_geq {
-             timeout-ms = <50>;
-             key-positions = <72 73>;
-             bindings = <&macro_geq>;
-         };
-    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -116,7 +64,7 @@
  &trans  &sk LC(LA(Q))  &sk LC(LA(W))  &sk LC(LA(E))  &sk LC(LA(R))  &sk LC(LA(T))             &none                                                     &none  &trans        &trans        &trans      &trans  &macro_kinesis  &kp F13
  &trans  &sk LC(LA(A))  &sk LC(LA(S))  &sk LC(LA(D))  &sk LC(LA(F))  &sk LC(LA(G))             &none  &trans  &trans                  &trans  &trans     &none  &trans        &trans        &trans      &trans          &trans  &kp F14
  &trans  &sk LC(LA(Z))  &sk LC(LA(X))  &sk LC(LA(C))  &sk LC(LA(V))  &sk LC(LA(B))                            &trans                  &trans                    &trans        &trans        &trans      &trans          &trans  &kp F15
- &trans         &trans         &trans     &kp C_PREV     &kp C_NEXT                           &trans  &trans  &trans                  &trans  &trans  &kp C_PP          &kp C_VOL_UP  &kp C_VOL_DN  &kp C_MUTE          &trans   &trans
+ &trans         &trans         &trans     &kp C_PREV     &kp C_NEXT                           &trans  &trans  &trans                  &trans  &trans  &kp C_PP          &kp C_VOL_UP  &kp C_VOL_DN  &kp C_MUTE     &kp C_EJECT   &trans
             >;
         };
 
